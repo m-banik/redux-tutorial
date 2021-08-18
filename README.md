@@ -13,7 +13,7 @@ Na program składa się interfejs z trzema odróżnialnymi wizualnie modułami. 
 Projekt jest do pobrania lub sklonowania z GitHub'a. Celem włączenia aplikacji należy wykonać po sobie następujące czynności:
 </div>
 
-1. Wpisać w terminalu i wykonać komendę `npm install`.
+1. Znajdując się w głównym folderze projektu wpisać w terminalu i wykonać komendę `npm install`.
 2. Wpisać w terminalu i wykonać komendę `npm start` do uruchomienia w trybie deweloperskim.  
 **LUB**
 3. Wpisać w terminalu i wykonać komendę `npm run build` do zbudowania produkcyjnej wersji.
