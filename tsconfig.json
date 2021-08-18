@@ -1,0 +1,31 @@
+// Konfiguracja TypeScript'u
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "outDir": "./build",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "downlevelIteration": true,
+    "paths": {
+      "@App/*": ["./*"],
+      "@Common/*": ["./common/*"],
+      "@Components/*": ["./components/*"],
+      "@Models/*": ["./models/*"],
+      "@MoviesModel/*": ["./models/movies/*"],
+      "@Utils/*": ["./utils/*"]
+    }
+  },
+  "include": ["src"]
+}

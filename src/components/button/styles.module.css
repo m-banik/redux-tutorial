@@ -1,0 +1,147 @@
+.submitButton {
+  padding: 1vh 1vw;
+  border: #4287f5 solid 1px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #4287f5;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  outline: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  color: #ddd;
+  background-color: #346cc7;
+}
+
+.basicButton {
+  padding: 1vh 1vw;
+  border: #000 solid 1px;
+  border-radius: 1rem;
+  background-color: #fff;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  outline: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.basicButton:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.crossedButton {
+  display: inline-block;
+  padding: 1vh 1vw;
+  margin: 0 10px;
+  border: #000 solid 1px;
+  text-transform: capitalize;
+  overflow: hidden;
+  transform: skewX(-30deg);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.crossedButton > .buttonContentWrapper {
+  display: block;
+  transform: skewX(30deg);
+  transition: 0.3s 0.2s linear;
+}
+
+.crossedButton:hover > .buttonContentWrapper {
+  transform: skewX(-12deg);
+}
+
+.crossedButton::before,
+.crossedButton::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -5%;
+  border: 1px solid #000;
+  transition: 0.5s linear;
+}
+
+.crossedButton::after {
+  top: initial;
+  bottom: -7%;
+  left: 0;
+  right: 0;
+  transition: 0.4s 0.1s linear;
+}
+
+.crossedButton:hover::before {
+  left: 105%;
+}
+
+.crossedButton:hover::after {
+  bottom: 105%;
+}
+
+.filledButton {
+  display: inline-block;
+  position: relative;
+  padding: 1vh 1vw;
+  border: #000 solid 1px;
+  text-transform: capitalize;
+  overflow: hidden;
+  transition: 0.5s 0s linear;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.filledButton > .buttonContentWrapper {
+  position: relative;
+}
+
+.filledButton:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.5s 0.2s linear;
+}
+
+.filledButton::before {
+  content: '';
+  position: absolute;
+  top: 49%;
+  bottom: 49%;
+  left: 101%;
+  width: 100%;
+  background-color: brown;
+  transition: 0.5s 0.2s linear, left 0.2s 0s linear;
+}
+
+.filledButton:hover::before {
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.disabledButton,
+.disabledButton:hover {
+  color: lightslategray;
+  border-color: lightslategray;
+  background-color: silver;
+  transition: 0;
+  cursor: default;
+}
+
+.disabledButton::after,
+.disabledButton::before {
+  display: none;
+}
+
+.submitButton.disabledButton,
+.submitButton.disabledButton:hover {
+  border-color: silver;
+}
+
+.crossedButton.disabledButton .buttonContentWrapper,
+.crossedButton.disabledButton:hover .buttonContentWrapper {
+  transform: skew(30deg);
+}

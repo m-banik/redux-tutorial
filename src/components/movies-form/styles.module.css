@@ -1,0 +1,26 @@
+.moviesFormContainer {
+  width: 30vw;
+  margin: 2vh auto;
+}
+
+.moviesFormTitleInput {
+  margin-bottom: 2vh;
+  padding: 0.5vh;
+  width: 100%;
+  border: #ddd solid 1px;
+  border-radius: 1rem;
+  text-align: center;
+  font-style: italic;
+  transition: 0.2s;
+  outline: none;
+  cursor: pointer;
+}
+
+.moviesFormTitleInput:hover,
+.moviesFormTitleInput:focus {
+  border-color: #aaa;
+}
+
+.moviesFormTitleInput:focus {
+  box-shadow: 0 0 0 2px lightgreen;
+}

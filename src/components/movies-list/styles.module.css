@@ -1,0 +1,35 @@
+.moviesListContainer {
+  padding: 2vh 0;
+  color: #fff;
+  background-color: rebeccapurple;
+  text-align: center;
+}
+
+.moviesListHeader {
+  padding-bottom: 1vh;
+  width: 30%;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+}
+
+.moviesListProperList {
+  margin: 2vh auto;
+  width: 30%;
+  list-style-type: none;
+}
+
+.moviesListProperListElement {
+  padding: 0.5vh 0;
+  margin: 1vh 0;
+  border-radius: 1rem;
+  background-color: purple;
+  font-style: italic;
+  letter-spacing: 1px;
+  overflow: hidden;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.moviesListProperListElement:hover {
+  opacity: 0.6;
+}

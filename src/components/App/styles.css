@@ -1,0 +1,11 @@
+/* Style globalne - to główny komponent aplikacji */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'arial', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
