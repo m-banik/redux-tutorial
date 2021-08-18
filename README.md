@@ -11,7 +11,7 @@ Na program składa się interfejs z trzema odróżnialnymi wizualnie modułami. 
 ## Instalacja i uruchomienie
 <div align="justify">
 Projekt jest do pobrania lub sklonowania z GitHub'a. Celem włączenia aplikacji należy wykonać po sobie następujące czynności:
-</div>
+</div>  
 
 1. Znajdując się w głównym folderze projektu wpisać w terminalu i wykonać komendę `npm install`.
 2. Wpisać w terminalu i wykonać komendę `npm start` do uruchomienia w trybie deweloperskim.  
