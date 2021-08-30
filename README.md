@@ -1,6 +1,6 @@
 # Redux tutorial
 <div align="justify">
-Prosta aplikacja napisana w TS wykorzystująca biblioteki z rodziny Redux. Jej przeznaczeniem jest zapoznanie programisty z wymienioną technologią oraz innymi składającymi się na ekosystem Reakta, a także z przyjętymi przez autora wzorcami projektowymi.
+Prosta aplikacja napisana w TypeScript wykorzystująca biblioteki z rodziny Redux. Jej przeznaczeniem jest zapoznanie programisty z wymienioną technologią oraz innymi składającymi się na ekosystem Reakta, a także z przyjętymi przez autora wzorcami projektowymi.
 </div>
 
 ## Działanie aplikacji
